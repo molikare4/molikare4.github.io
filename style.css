@@ -72,7 +72,7 @@ img {vertical-align: middle;}
 
 /* Caption text(1/2 etc) */
 .text {
-  color: #088646;
+  color: #9F0978;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -83,7 +83,7 @@ img {vertical-align: middle;}
 
 /* Number text (2/2 etc) */
 .numbertext {
-  color: #088646;
+  color: #9F0978;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
