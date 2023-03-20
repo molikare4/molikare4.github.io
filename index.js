@@ -1,6 +1,7 @@
 //Made by Boofdev.eu.org
 let slideIndex = 1;
 showSlides(slideIndex);
+currentSlide(1)
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
