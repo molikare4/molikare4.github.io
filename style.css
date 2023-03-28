@@ -1,3 +1,28 @@
+.warningPopup {
+  overflow-x: hidden;
+  /*position: absolute;*/
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  /*right: 50%;*/
+  background: #192127;
+  color: #ffffff;
+  padding-top: 0.5rem;
+  padding: 1rem 5vw;
+  /*margin-top: 5.5rem;*/
+  animation: slide-bottom 600ms ease-in;
+}
+
+@keyframes slide-bottom {
+  from {
+      transform: translateY(-80%);
+      opacity: 0;
+  } to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
 a:link {
     color: tomato;
     background-color: transparent;
